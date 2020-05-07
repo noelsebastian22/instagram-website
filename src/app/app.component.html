@@ -1,0 +1,57 @@
+<style>
+  /* Responsive Styles */
+  @media screen and (max-width: 767px) {
+  }
+
+  @media screen and (max-width: 575px) {
+  }
+</style>
+
+<!-- Toolbar -->
+<header>
+  <div class="container tool-container">
+    <div class="toolbar" role="banner">
+      <i class="fab fa-instagram"></i>
+      <div class="search-box">
+        <i class="fas fa-search"></i>
+        <input type="text" name="search" />
+      </div>
+
+      <div class="dropdown">
+        <div class="profile-info">
+          <span>Alvin</span>
+          <img src="../assets/images/ben-parker.jpg" alt="Alvin" />
+          <img class="drop-btn" src="../assets/images/Triangle.png" alt="" />
+        </div>
+        <ul class="dropdown-content">
+          <li>
+            <a href="#"><i class="fas fa-cog"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="far fa-heart"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-power-off"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+<main>
+  <section id="main" class="container">
+    <section id="gallery">
+      <div *ngFor="let card of galleryData">
+        <app-card [cardData]="card"></app-card>
+      </div>
+    </section>
+    <section id="recommended-people">
+      <!-- <div class="recommended-list">
+        <h1>Recommended Peoples</h1>
+      </div> -->
+      <recommended-people [peopleData]="recommendedPeople"></recommended-people>
+    </section>
+  </section>
+</main>
+<!-- <app-card></app-card> -->
+<!-- <router-outlet></router-outlet> -->

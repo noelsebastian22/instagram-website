@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Neethu Joy",
+    "profileImage": "../../../assets/images/Prof-1.jpg",
+    "place": "Kakkanad",
+    "added": true
+  },
+  {
+    "id": 2,
+    "name": "Mahesh Sivasankaran",
+    "profileImage": "../../../assets/images/Prof-2.jpg",
+    "place": "Kakkanad",
+    "added": true
+  },
+  {
+    "id": 3,
+    "name": "Monish Mohanan",
+    "profileImage": "../../../assets/images/Prof-3.jpg",
+    "place": "Kakkanad",
+    "added": true
+  },
+  {
+    "id": 4,
+    "name": "Ambily Pillai",
+    "profileImage": "../../../assets/images/Prof-4.jpg",
+    "place": "Kakkanad",
+    "added": true
+  },
+  {
+    "id": 5,
+    "name": "Yannis Elzyr",
+    "profileImage": "../../../assets/images/Prof-5.jpg",
+    "place": "Kakkanad",
+    "added": true
+  }
+]

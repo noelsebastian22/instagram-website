@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Neethu Joy",
+    "profileImage": "../../assets/images/Prof-1.jpg",
+    "date": "20, Oct 2016",
+    "place": "Kakkanad",
+    "displayImage": "../../assets/images/Post1.png",
+    "tags": ["dog", "cat", "classroom", "dog", "cat", "classroom"],
+    "favorite": true
+  },
+  {
+    "id": 2,
+    "name": "Mahesh Sivasankaran",
+    "profileImage": "../../assets/images/Prof-2.jpg",
+    "date": "20, Oct 2016",
+    "place": "Kakkanad",
+    "displayImage": "../../assets/images/post2.png",
+    "tags": ["dog", "cat", "classroom"],
+    "favorite": true
+  },
+  {
+    "id": 3,
+    "name": "Monish Mohanan",
+    "profileImage": "../../assets/images/Prof-3.jpg",
+    "date": "20, Oct 2016",
+    "place": "Kakkanad",
+    "displayImage": "../../assets/images/Post3.png",
+    "tags": [
+      "dog",
+      "cat",
+      "classroom",
+      "dog",
+      "cat",
+      "classroom",
+      "dog",
+      "cat",
+      "classroom"
+    ],
+    "favorite": true
+  },
+  {
+    "id": 4,
+    "name": "Ambily Pillai",
+    "profileImage": "../../assets/images/Prof-4.jpg",
+    "date": "20, Oct 2016",
+    "place": "Kakkanad",
+    "displayImage": "../../assets/images/Post4.png",
+    "tags": ["dog", "cat", "classroom"],
+    "favorite": true
+  },
+  {
+    "id": 5,
+    "name": "Yannis Elzyr",
+    "profileImage": "../../assets/images/Prof-5.jpg",
+    "date": "20, Oct 2016",
+    "place": "Kakkanad",
+    "displayImage": "../../assets/images/Post5.png",
+    "tags": ["dog", "cat", "classroom", "dog", "cat", "classroom"],
+    "favorite": true
+  }
+]

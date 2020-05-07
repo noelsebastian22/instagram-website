@@ -1,0 +1,8 @@
+<div class="recommended-main">
+  <div class="recommended-title"><h1>Recommended Peoples</h1></div>
+  <div class="recommended-content">
+    <div *ngFor="let people of peopleData">
+      <app-people [peopleData]="people"></app-people>
+    </div>
+  </div>
+</div>
