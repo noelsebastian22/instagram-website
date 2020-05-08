@@ -11,4 +11,8 @@ export class CardComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  public favoriteClick(cardData: Card): void {
+    cardData.favorite = !cardData.favorite;
+  }
 }

@@ -30,7 +30,13 @@
   }
   .add-people {
     font-size: 24px;
-    color: rgba(237, 46, 138, 1);
     width: 30px;
+    cursor: pointer;
+    .fa-plus-circle {
+      color: rgba(237, 46, 138, 1);
+    }
+    .fa-check-circle {
+      color: rgb(13, 213, 134);
+    }
   }
 }

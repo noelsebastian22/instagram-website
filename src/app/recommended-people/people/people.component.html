@@ -6,7 +6,10 @@
       <span class="country">{{ peopleData.place }}</span>
     </div>
   </div>
-  <div class="add-people">
-    <i class="fas fa-plus-circle"></i>
+  <div class="add-people" (click)="addToggle(peopleData)">
+    <i
+      class="fas"
+      [ngClass]="peopleData.added ? 'fa-plus-circle' : 'fa-check-circle'"
+    ></i>
   </div>
 </div>

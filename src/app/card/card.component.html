@@ -22,8 +22,8 @@
     <div class="tags">
       #dog #cat #classroom #dog #cat #classroom #dog #cat #classroom
     </div>
-    <div class="favorite">
-      <i class="fas fa-heart"></i>
+    <div class="favorite" (click)="favoriteClick(cardData)">
+      <i class="fa-heart" [ngClass]="cardData.favorite ? 'fas' : 'far'"></i>
     </div>
   </div>
 </div>

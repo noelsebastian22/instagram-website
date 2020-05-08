@@ -10,4 +10,7 @@ export class PeopleComponent implements OnInit {
   @Input() peopleData: RecPeople;
   constructor() {}
   ngOnInit() {}
+  public addToggle(peopleData: RecPeople): void {
+    peopleData.added = !peopleData.added;
+  }
 }

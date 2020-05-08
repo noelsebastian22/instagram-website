@@ -11,14 +11,14 @@
     "name": "Mahesh Sivasankaran",
     "profileImage": "../../../assets/images/Prof-2.jpg",
     "place": "Kakkanad",
-    "added": true
+    "added": false
   },
   {
     "id": 3,
     "name": "Monish Mohanan",
     "profileImage": "../../../assets/images/Prof-3.jpg",
     "place": "Kakkanad",
-    "added": true
+    "added": false
   },
   {
     "id": 4,
